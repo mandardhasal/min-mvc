@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/js/jquery.min.js" ></script>
+    <script src="/js/bootstrap.min.js" ></script>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/framework.css" rel="stylesheet">
+    <?php
+      if(isset($this->vars['page_title'])){
+          echo '<title>'.$this->vars['page_title'].'</title>';
+      } 
+    ?>
+  </head>
+
+ 
+  <body>
+
+    <!-- *page* -->
+    <div id="page">
+
+
+
+
+
+<?php
+include_once $this->vars['template'];
+?>
+
+
+
+
+
+
+     
+
+    </div>
+    <!-- /page/ -->
+
+  
+
+  </body>
+</html>
