@@ -8,8 +8,8 @@
     <link href="/css/bootstrap.min.css" rel="stylesheet">
     <link href="/css/framework.css" rel="stylesheet">
     <?php
-      if(isset($this->vars['page_title'])){
-          echo '<title>'.$this->vars['page_title'].'</title>';
+      if(isset($this->vars['pageTitle'])){
+          echo '<title>'.$this->vars['pageTitle'].'</title>';
       } 
     ?>
   </head>
@@ -23,10 +23,11 @@
 
 
 
-
-<?php
-include_once $this->vars['template'];
-?>
+<div class="container">
+  <?php
+  include_once $this->vars['template'];
+  ?>
+</div>
 
 
 

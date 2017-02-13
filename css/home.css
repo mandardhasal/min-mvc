@@ -1,0 +1,36 @@
+.banner{
+	background-repeat: round;
+	background-image: url('/images/banner.png');
+}
+
+.banner-text{
+	color: #FFF;
+	font-size: 22px;
+	margin-top: 65px;
+	margin-bottom: 75px;
+}
+
+
+.home-products{
+	display: inline-block;
+	font-size: 20px;
+}
+
+
+.home-products-see-more{
+	margin-left: 10px;
+}
+
+.product-row-heading{
+	margin-bottom: 20px;
+}
+
+.products-top-border{
+	padding-top: 30px;
+}
+
+
+.products-bottom-border{
+	margin-bottom: 5px;
+
+}

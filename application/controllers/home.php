@@ -1,18 +1,27 @@
 <?php
 
-class home extends baseController 
-{
+class home extends baseController {
 
-	function __construct()
-	{
+	function __construct(){
 		parent::__construct();
 	}
 
-	public function index()
-	{
-		$this->view_assign('page_title','SD Enterpises');
-		$this->view_assign('template','home.html');
+	public function index(){
+
+		$this->viewAssign('pageTitle','Home');
+		$this->viewAssign('template','home.html');
 		$this->view('framework.html');
+
+	}
+
+
+	public function profile($name=''){
+
+		$this->viewAssign('pageTitle','Profile');
+		$this->viewAssign('name',$name);	
+		$this->viewAssign('template','profile.html');
+		$this->view('framework.html');
+
 	}
 
 	

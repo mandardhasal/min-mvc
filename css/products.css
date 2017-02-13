@@ -1,0 +1,160 @@
+.modal-row{
+	font-size: 12px;
+}
+
+.product-modal-img-caption{
+	margin-top: 8px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+
+.product-modal-loader-img{
+	height: 50px;
+	width: 50px;
+}
+
+.product-modal-loader-txt{
+	font-size: 20px;
+}
+
+.modal-footer{
+	padding-top: 7px;
+	padding-right: 12px;
+	padding-bottom: 7px ;
+}
+
+.modal-name-group{
+	display: inline-block;
+	width: 35%;
+	margin-right: 10px;
+}
+
+.modal-email-group{
+	display: inline-block;
+	width: 55%;
+}
+
+.modal-form-row{
+	margin-bottom: 10px;
+}
+
+.modal-text-area{
+	resize: none;
+}
+
+
+.tb{
+	position: relative;
+	border-collapse: separate;
+	display: table;
+	width: 100%;
+
+}
+.captcha-reload{
+	padding-right: 10px !important;
+	font-size: 15px;
+}
+.tb-cell{
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+}
+.captcha-ans{
+	border-top-right-radius: 3px !important;
+	border-bottom-right-radius: 3px !important;
+}
+
+.captcha-img{
+	height: 15px;
+}
+
+.captcha-reload{
+	display: table-cell;
+	vertical-align: middle;
+	padding-right: 10px;
+}
+
+.service-modal-img{
+/*	width: 120px;
+	height: 120px;*/
+	margin: 0 auto;
+}
+
+
+
+.product-row-img {
+	width: 200px !important;
+	height: 115px !important;
+}
+
+.service-row-img{
+	width: 90px !important;
+	height: 100px !important;
+	padding-top: 10px;
+}
+.product-thumb-caption{
+	height: 20px;
+	font-size: 15px;
+}
+
+.product-thumb-caption-div{
+	padding-bottom: 15px !important;
+
+}
+
+.product-thumb-disc {
+	font-size: small;
+	margin-bottom: 15px;
+}
+
+.serivce-thumb-disc{
+	font-size: small;
+	margin-bottom: 15px;
+	height: 40px;
+}
+
+.product-modal-img{
+	/*width: 250px;
+	max-height: 160px;*/
+	margin: 0 auto;
+}
+.product-thumb-class{
+	padding-left: 10px;
+}
+
+.product-h-border{
+	margin-bottom:30px;
+}
+
+.see-all{
+	font-size: larger;
+}
+
+
+#alertModal > .modal-dialog {
+	max-width: 400px;
+}
+
+#alertModal .modal-body {
+	padding: 10px;
+}
+
+#alertModal .modal-header {
+	border:none;
+	padding-bottom: 5px;
+}
+
+#alertModal .modal-footer {
+	border:none;
+	padding-bottom: 15px;
+	padding-top: 5px;
+
+}
+#alertModal .modal-footer button {
+	width: 100px;
+}
+
+#alertModal .modal-body p {
+	font-size: 15px;
+}

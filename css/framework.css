@@ -1,0 +1,149 @@
+
+  body { padding-top: 50px; }
+
+
+  .btn-primary{
+    background-color:#1E5C81;
+    border-color: #144966;
+  }
+  .btn-primary:hover,  .btn-primary:visited, .btn-primary:focus{
+    background-color: #094267;
+    outline-color: #2977a0;
+
+  }
+
+  .btn-primary:active,.btn-primary:active:focus{
+  
+    background-color: #022F54 !important;
+    outline: 0;
+  }
+
+  .top-row-margin-90{ 
+    margin-top:90px; 
+  }
+
+  .top-row-margin-70{ 
+    margin-top:70px; 
+  }
+
+  .top-row-margin-30{ 
+    margin-top:30px; 
+  }
+
+  .top-row-margin-40{ 
+    margin-top:40px; 
+  }
+
+  .top-row-margin-50{ 
+    margin-top:50px; 
+  }
+
+  .bottom-margin-50{
+    margin-bottom: 50px;
+  }
+
+  .cntr-blk{
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .thumbnail{
+    /*border-color: #8698a4;*/
+    border-color:#4e768b;
+  }
+
+  .border-top-colored{
+    border-top: 1px solid #8698a4;
+  }
+
+  .font-arial{
+    font-family: Arial,sans;
+  }
+
+  .font-smaller{
+    font-size: smaller;
+  }
+
+  .list-style-none{
+    list-style: none;
+    padding-left: 0;
+  }
+
+
+ 
+
+  @media screen and (max-width: 768px) {
+    .navbar-upper .navbar-nav-upper {
+        display: inline-block;
+        float: none;
+        vertical-align: center;
+        width: 100%;
+    }
+      
+    .navbar-collapse-upper{
+      padding: 0;
+      margin: 0;
+    }
+
+    .navbar-upper .navbar-collapse-upper {
+      text-align: center;
+    }
+
+    .navbar-bottom {
+      padding-bottom: 15px;
+    }
+    
+    .modal { 
+      position: fixed; 
+      top: 20px !important; 
+      right: 3%; 
+      left: 3%;
+      width: auto; 
+      margin: 0; 
+    }
+
+  }
+
+
+  @media screen and (min-width: 992px){
+    .prod-modal-desc{
+       margin-top: -50px;
+       padding-left: 25px;
+    }
+    .product-modal-img{
+     /*width: 250px;*/
+      height: 160px;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .navbar-text-upper{
+      display: none;
+    }  
+
+    .prod-modal-desc{
+       margin-bottom: 25px;
+    }
+  }
+
+  .navbar-hover > li:hover {
+    background-color: #383838;
+  }
+
+  .navbar-bottom {
+      position: relative;
+      margin-top: 20px;
+      background-color: #fff;
+      z-index: 0;
+      font-size: small;
+  }
+
+  .navbar-text-lower{
+    margin-right: 30px;
+  }
+
+  .navbar-inverse .navbar-brand, .navbar-inverse .navbar-text, .navbar-inverse .navbar-nav > li > a{
+    color: #e1e1e1;
+    font-size: small;
+  }
