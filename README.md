@@ -1,6 +1,6 @@
-# min-mvc
+# Min-Mvc
 
-Simple, basic minimumal mvc framework for php. Gives SEO friendly urls
+Simple, basic and minimumal mvc framework for php. Gives SEO friendly urls
 
 ##Requirments
 
